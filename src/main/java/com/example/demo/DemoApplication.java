@@ -11,6 +11,7 @@ import java.util.List;
 
 @SpringBootApplication
 @ComponentScan(basePackageClasses = UserController.class)
+@ComponentScan(basePackageClasses = User.class)
 public class DemoApplication implements CommandLineRunner {
 
 	@Autowired
