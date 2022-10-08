@@ -14,10 +14,10 @@ public class User {
     private String name;
     private String team;
 
-    protected User() {
+    public User() {
     }
 
-    protected User(String name, String team) {
+    public User(String name, String team) {
         this.name = name;
         this.team = team;
     }
